@@ -15,6 +15,7 @@ nav {
 .nav-list { 
     display: flex;
     justify-content: space-around;
+    margin: 0;
     padding: 1em 0;
     list-style: none;
 }
@@ -28,5 +29,33 @@ nav {
 @media (min-width: 500px) {
     .nav-list {
         justify-content: flex-end;
-    }   
+    }
+}
+
+.welcome__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    text-align: center;
+}
+
+.welcome__section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Ralway', sans-serif;
+    color: #f0f0f0;
+    margin-top: 3em;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+.welcome__section p {
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #BE3144;
+    margin: 0;
 }
