@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;;
+}
+
+nav {  
+    background: #BE3144;
+}
+
+.nav-list { 
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.nav-list a {
+    padding: 0 1em;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+@media (min-width: 500px) {
+    .nav-list {
+        justify-content: flex-end;
+    }   
+}
