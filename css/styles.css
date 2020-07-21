@@ -236,7 +236,11 @@ a {
 }
 
 footer {
+    padding: 1.5em 0;
+    color: #f0f0f0;
+    background: #333;
     border-top: 5px solid #BE3144;
+    text-align: center;
 }
 
 
